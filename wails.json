@@ -1,0 +1,13 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "performance-wails",
+  "outputfilename": "performance-wails",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "gjzhou",
+    "email": "92616697+PotatoZhou@users.noreply.github.com"
+  }
+}

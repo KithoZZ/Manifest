@@ -1,0 +1,300 @@
+/* 暗黑模式样式 */
+.dark body {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+.dark .app-container {
+    background-color: #1e1e1e;
+}
+
+.dark .sidebar {
+    background: #1e1e1e;
+    color: #e0e0e0;
+}
+
+.dark .sidebar .logo-text {
+    color: #ffffff;
+}
+
+.dark .nav-item {
+    color: #9ca3af;
+}
+
+.dark .nav-item:hover {
+    background: #333333;
+    color: #ffffff;
+}
+
+.dark .nav-item.active {
+    background: #333333;
+    color: #8b5cf6;
+    border-color: #8b5cf6;
+    box-shadow: 0 2px 8px rgba(139, 92, 246, 0.2);
+}
+
+.dark .sidebar-divider {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.dark .search-bar-container {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.dark .search-bar {
+    background: #2a2a2a;
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.dark .search-bar:hover {
+    background: #333333;
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.dark .search-input {
+    color: #ffffff;
+}
+
+.dark .search-input::placeholder {
+    color: #94a3b8;
+}
+
+.dark .search-icon {
+    color: #94a3b8;
+}
+
+.dark .help-center:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.dark .help-text {
+    color: #ffffff;
+}
+
+.dark .notifications:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.dark .notifications-text {
+    color: #ffffff;
+}
+
+.dark .user-info-section {
+    background-color: #1e293b;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.dark .user-name {
+    color: #ffffff;
+}
+
+.dark .starter-set-overview {
+    background-color: #1e293b;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.dark .overview-title {
+    color: #ffffff;
+}
+
+.dark .overview-subtitle {
+    color: #94a3b8;
+}
+
+.dark .folder-icon {
+    background-color: #334155;
+}
+
+.dark .folder-icon::before {
+    background-color: #334155;
+}
+
+.dark .folder-icon.completed {
+    background-color: #475569;
+}
+
+.dark .folder-icon.completed::before {
+    background-color: #475569;
+}
+
+.dark .folder-icon.pending {
+    background-color: #334155;
+}
+
+.dark .folder-icon.pending::before {
+    background-color: #334155;
+}
+
+.dark .folder-item:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.dark .folder-name {
+    color: #e0e0e0;
+}
+
+.dark .main-content-wrapper {
+    background-color: #1e1e1e;
+}
+
+.dark .page-header {
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+
+.dark .page-header h2 {
+    color: #ffffff;
+}
+
+.dark .shortcut-button {
+    background: #333333;
+    border-color: rgba(255, 255, 255, 0.1);
+    color: #94a3b8;
+}
+
+.dark .shortcut-button:hover {
+    background: #444444;
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.dark .dashboard-cards {
+    gap: 15px;
+}
+
+.dark .dashboard-card {
+    background-color: #1e293b;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.dark .dashboard-card h3 {
+    color: #94a3b8;
+}
+
+.dark .dashboard-card h2 {
+    color: #ffffff;
+}
+
+.dark .dashboard-card .icon {
+    background-color: rgba(139, 92, 246, 0.1);
+    color: #8b5cf6;
+}
+
+.dark .dashboard-card:nth-child(2) .icon {
+    background-color: rgba(74, 222, 128, 0.1);
+    color: #4ade80;
+}
+
+.dark .dashboard-card:nth-child(3) .icon {
+    background-color: rgba(96, 165, 250, 0.1);
+    color: #60a5fa;
+}
+
+.dark .dashboard-card:nth-child(4) .icon {
+    background-color: rgba(251, 146, 60, 0.1);
+    color: #fb923c;
+}
+
+.dark .dashboard-card:nth-child(5) .icon {
+    background-color: rgba(236, 72, 153, 0.1);
+    color: #ec4899;
+}
+
+.dark .dashboard-card:nth-child(6) .icon {
+    background-color: rgba(250, 204, 21, 0.1);
+    color: #facc15;
+}
+
+.dark .quarter-tabs {
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+
+.dark .quarter-tab {
+    color: #94a3b8;
+}
+
+.dark .quarter-tab.active {
+    color: #8b5cf6;
+    border-bottom-color: #8b5cf6;
+}
+
+.dark .quarter-tab:hover {
+    color: #ffffff;
+}
+
+.dark .years-table {
+    background-color: #1e293b;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dark .years-table th {
+    color: #94a3b8;
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+
+.dark .years-table td {
+    color: #e0e0e0;
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+
+.dark .years-table tr:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.dark .month-progress {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.dark .month-progress:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.dark .month-name {
+    color: #ffffff;
+}
+
+.dark .progress-bar {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.dark .btn {
+    background: #333333;
+    border-color: rgba(255, 255, 255, 0.1);
+    color: #e0e0e0;
+}
+
+.dark .btn-primary {
+    background: #8b5cf6;
+    color: white;
+}
+
+.dark .btn-primary:hover {
+    background: #7c3aed;
+}
+
+.dark .btn-success {
+    background: #10b981;
+    color: white;
+}
+
+.dark .btn-success:hover {
+    background: #059669;
+}
+
+.dark .btn-warning {
+    background: #f59e0b;
+    color: white;
+}
+
+.dark .btn-warning:hover {
+    background: #d97706;
+}
+
+.dark .btn-add-task {
+    background: #8b5cf6;
+    color: white;
+}
+
+.dark .btn-add-task:hover {
+    background: #7c3aed;
+}
